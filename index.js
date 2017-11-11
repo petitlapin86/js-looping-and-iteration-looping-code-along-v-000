@@ -13,8 +13,7 @@ return names;
 
   function tailsNeverFails (tails) {
  while (let tails = 0; Math.random() >= 0.5; tails++) {
-   console.log("You got ${tails} tails in a row!");
  }
 
- return tails;
+ return return `You got ${tails} tails in a row!`;
  }

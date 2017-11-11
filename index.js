@@ -16,3 +16,11 @@ function tailsNeverFails (tails) {
   while (tailsNeverFails (tails)) {
     console.log("You got ${tails} tails in a row!");
   }
+
+  function tailsNeverFails (tails) {
+ while (let tails = 0; counter < names.length; counter++) {
+   console.log("You got ${tails} tails in a row!");
+ }
+
+ return tails;
+ }

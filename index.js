@@ -10,10 +10,12 @@ return names;
 
 
 
+function tailsNeverFails () {
+  let tails = 0;
 
-  function tailsNeverFails (tails) {
- while (let tails = 0; Math.random() >= 0.5; tails++) {
- }
+  while (Math.random() >= 0.5) {
+    tails++;
+  }
 
- return return `You got ${tails} tails in a row!`;
- }
+  return `You got ${tails} tails in a row!`;
+}

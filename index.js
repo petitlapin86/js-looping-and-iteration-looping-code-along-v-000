@@ -6,3 +6,14 @@ for (let counter = 0; counter < names.length; counter++) {
 
 return names;
 }
+
+
+
+function tailsNeverFails (tails) {
+  return Math.random() >= 0.5; 
+}
+  
+  while (tailsNeverFails (tails)) {
+    console.log("You got ${tails} tails in a row!");
+  }
+}

@@ -10,7 +10,6 @@ return names;
 
 
 function tailsNeverFails (tails) {
-  let tails = 0;
   return Math.random() >= 0.5;
 }
 
